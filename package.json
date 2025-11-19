@@ -1,49 +1,8 @@
 {
-  "name": "triton-gaming-event-logistics",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev --turbopack -p 80",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "eslint:check": "npx eslint",
-    "eslint:fix": "npx eslint --fix",
-    "prettier:check": "npx prettier --check .",
-    "prettier:format": "npx prettier --write ."
-  },
   "dependencies": {
-    "@supabase/ssr": "^0.6.1",
-    "@supabase/supabase-js": "^2.50.0",
-    "discord.js": "^14.14.1",
-    "dotenv": "^16.5.0",
-    "framer-motion": "^12.16.0",
-    "google-one-tap": "^1.0.6",
-    "next": "15.3.3",
-    "node-fetch": "^3.3.2",
-    "pg": "^8.16.0",
-    "qr-code-styling": "^1.9.2",
-    "qr-scanner": "^1.4.2",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
-  },
-  "devDependencies": {
-    "@eslint/eslintrc": "^3",
-    "@tailwindcss/postcss": "^4.1.8",
-    "@types/google-one-tap": "^1.2.6",
-    "@types/node": "^20",
-    "@types/pg": "^8.15.4",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "autoprefixer": "^10.4.21",
-    "eslint": "^9.28.0",
-    "eslint-config-next": "15.3.3",
-    "eslint-config-prettier": "^10.1.5",
-    "eslint-plugin-prettier": "^5.4.1",
-    "postcss": "^8.5.4",
-    "prettier": "^3.5.3",
-    "tailwindcss": "^4.1.8",
-    "tsx": "^4.19.4",
-    "typescript": "5.4.5"
+    "canvas": "^3.2.0",
+    "discord.js": "^14.22.1",
+    "dotenv": "^17.2.3",
+    "qr-code-styling-node": "^1.5.0"
   }
 }
